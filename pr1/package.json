@@ -1,9 +1,10 @@
 {
   "devDependencies": {
-
-    "cypress": "12.11.0"
+    "cypress": "^12.11.0",
+    "cypress-xpath": "^2.0.1"
   },
   "dependencies": {
-    "package.json": "^2.0.1"
+    "package.json": "^2.0.1",
+    "sqlite3": "^5.1.7"
   }
 }

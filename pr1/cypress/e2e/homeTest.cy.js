@@ -2,7 +2,7 @@ import homePage from "../pages/homePage"
 
 describe("Newsletter Subscribe Form", () => {
   beforeEach(() => {
-    cy.visit("http://localhost:3000")
+    cy.visit("http://www.google.com")
   })
 
   context("Hero section", () => {

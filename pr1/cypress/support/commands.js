@@ -28,3 +28,11 @@ Cypress.Commands.add("getByData", (selector) => {
     return cy.get(`[data-test=${selector}]`)
 })
 
+import 'cypress-xpath';
+//require('@cypress/xpath');
+
+
+
+Cypress.Commands.add('visitGooglePage', () => {
+        cy.visit('https://www.google.com/');
+});
